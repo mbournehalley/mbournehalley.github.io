@@ -2,7 +2,7 @@
   "name": "gatsby-mbournhalley",
   "private": true,
   "description": "mbournehalley's portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "<mbournehalley@gmail.com>",
   "dependencies": {
     "gatsby": "^2.21.37",
@@ -34,7 +34,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "release" : "standard-version",
+    "release": "standard-version",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
