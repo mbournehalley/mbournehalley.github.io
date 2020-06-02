@@ -14,22 +14,35 @@
     "gatsby-source-filesystem": "^2.3.4",
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
     "husky": "^4.2.5",
     "prettier": "2.0.5",
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.0",
+    "typescript": "^3.9.3"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "build:tsc": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
@@ -37,7 +50,9 @@
     "release": "standard-version",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check:watch": "npm run type-check -- --watch",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
