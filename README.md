@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/78bd6f07e0b15ca3fa1f/maintainability)](https://codeclimate.com/github/mbournehalley/mbournehalley.github.io/maintainability)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
