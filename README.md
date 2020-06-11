@@ -1,4 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/78bd6f07e0b15ca3fa1f/maintainability)](https://codeclimate.com/github/mbournehalley/mbournehalley.github.io/maintainability)
+[![Circle CI](https://circleci.com/gh/mbournehalley/mbournehalley.github.io.svg?style=svg)](https://app.circleci.com/pipelines/github/mbournehalley/mbournehalley.github.io)
+
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
