@@ -50,7 +50,7 @@
     "release": "standard-version",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "type-check:watch": "npm run type-check -- --watch",
     "type-check": "tsc --noEmit"
   },
