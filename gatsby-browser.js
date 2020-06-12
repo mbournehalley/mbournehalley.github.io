@@ -4,4 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import '@blueprintjs/icons/lib/css/blueprint-icons.css'
+import '@blueprintjs/core/lib/css/blueprint.css'
+import 'src/styles/bootstrap-grid.css'
+import 'src/styles/bootstrap-utilities.css'
