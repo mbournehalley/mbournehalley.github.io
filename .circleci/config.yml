@@ -12,6 +12,18 @@ jobs:
             - run: npm install
             - run: npm test
 workflows:
+<<<<<<< HEAD
+<<<<<<< HEAD
     build-and-test:
       jobs:
         - build-and-test
+=======
+  build-and-test:
+    jobs:
+      - build-and-test
+>>>>>>> b498297... fix: revert ci
+=======
+  build-and-test:
+    jobs:
+      - build-and-test
+>>>>>>> 3e8b9fe... fix: ci pipeline

@@ -13,7 +13,6 @@ const Header: React.FC<Props> = ({ siteTitle }) => (
         </div>
         <div className="bp3-navbar-group bp3-align-right">
           <button className="bp3-button bp3-minimal bp3-icon-home">Home</button>
-          <button className="bp3-button bp3-minimal bp3-icon-document">Files</button>
           <span className="bp3-navbar-divider"></span>
           <button className="bp3-button bp3-minimal bp3-icon-git-repo"></button>
         </div>
